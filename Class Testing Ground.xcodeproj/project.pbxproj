@@ -21,6 +21,7 @@
 		0974EB2718DFE13A00A48682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0974EB0918DFE13A00A48682 /* UIKit.framework */; };
 		0974EB2F18DFE13A00A48682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0974EB2D18DFE13A00A48682 /* InfoPlist.strings */; };
 		0974EB3118DFE13A00A48682 /* Class_Testing_GroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0974EB3018DFE13A00A48682 /* Class_Testing_GroundTests.m */; };
+		0974EB3C18DFF00100A48682 /* VWDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0974EB3B18DFF00100A48682 /* VWDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0974EB2C18DFE13A00A48682 /* Class Testing GroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Class Testing GroundTests-Info.plist"; sourceTree = "<group>"; };
 		0974EB2E18DFE13A00A48682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0974EB3018DFE13A00A48682 /* Class_Testing_GroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class_Testing_GroundTests.m; sourceTree = "<group>"; };
+		0974EB3A18DFF00100A48682 /* VWDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWDog.h; sourceTree = "<group>"; };
+		0974EB3B18DFF00100A48682 /* VWDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				0974EB1718DFE13A00A48682 /* Main.storyboard */,
 				0974EB1A18DFE13A00A48682 /* VWViewController.h */,
 				0974EB1B18DFE13A00A48682 /* VWViewController.m */,
+				0974EB3A18DFF00100A48682 /* VWDog.h */,
+				0974EB3B18DFF00100A48682 /* VWDog.m */,
 				0974EB1D18DFE13A00A48682 /* Images.xcassets */,
 				0974EB0C18DFE13A00A48682 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0974EB1C18DFE13A00A48682 /* VWViewController.m in Sources */,
+				0974EB3C18DFF00100A48682 /* VWDog.m in Sources */,
 				0974EB1218DFE13A00A48682 /* main.m in Sources */,
 				0974EB1618DFE13A00A48682 /* VWAppDelegate.m in Sources */,
 			);
